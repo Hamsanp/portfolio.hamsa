@@ -1,0 +1,26 @@
+header {
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #00adb5;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    color: #00adb5;
+}
